@@ -59,7 +59,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         transcript_pdf_path = sys.argv[1]
     else:
-        transcript_pdf_path = ''
+        transcript_pdf_path = "/Users/johna/Downloads/SSR_TSRPT_UN (20) (1).pdf"
     
     extracted_courses = extract_all_courses(transcript_pdf_path)
     
